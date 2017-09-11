@@ -6,7 +6,18 @@ target 'MVVM' do
     use_frameworks!
     
     # Rx
+    pod 'Action'
     pod 'RxSwift',    '~> 3.0'
     pod 'RxCocoa',    '~> 3.0'
-    pod 'RxOptional', '~> 3.1'
+    pod 'RxAlamofire', '~> 3.0.3'
+    
+    # Network
+    pod 'Alamofire', '~> 4.5'
+    
+    # Parse Object
+    pod 'ObjectMapper', '~> 2.2'
+    
+    # Log
+    pod 'SpeedLog'
+    
 end
