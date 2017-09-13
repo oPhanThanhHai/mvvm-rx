@@ -7,13 +7,11 @@
 //
 
 import UIKit
-import RxSwift
 
 class BaseViewController: UIViewController {
     
     // MARK: Property
     
-    var viewModel: BaseViewModel?
     let disposeBag = DisposeBag()
     
     // MARK: Life Cycle
@@ -28,8 +26,6 @@ class BaseViewController: UIViewController {
         super.viewWillAppear(animated)
     }
     
-    // MARK: Action
-    
     // MARK: Method
     
     func setupViewModel() {
@@ -38,5 +34,4 @@ class BaseViewController: UIViewController {
     func bindViewModel() {
     }
     
-    // MARK: API
 }
